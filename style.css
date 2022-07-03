@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    justify-content: center;
+}
+
+.structure {
+    width: 30vw;
+    background-color: #f6f6f6;
+    height: 70vh;
+    text-align: center;
+}
+
+header {
+    font: 2.2rem serif;
+}
+
+input {
+    font: 2rem serif;
+}
+
+#calorie, #results {
+    font: 2rem serif;
+}
+
+#convertBtn {
+    font: 1.9rem serif;
+    margin-top: 4%;
+    background-color: rgb(48, 46, 46);
+    border: none;
+    color: #f6f6f6;
+    transition: 200ms background-color;
+}
+
+#convertBtn:hover {
+    background-color: #979797;
+}
+
+#swap {
+    font: 1.8rem serif;
+    margin-top: 4%;
+    border: 1.4px solid #979797;
+    color: #979797;
+    transition: 200ms background-color, 200ms color;
+}
+
+#swap:hover {
+    background-color: #b9b9b9;
+    color: #f6f6f6;
+}
+
+#result {
+    width: 22vw;
+    height: 4vh;
+    border: solid 1px;
+    font: 2rem serif;
+    background-color: rgb(227, 227, 227);
+}
+
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
